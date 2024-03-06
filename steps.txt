@@ -40,5 +40,26 @@ Step 4 --> (Updating setup.py) :
         The setup() function call with the provided arguments sets up the package configuration.
 
         Overall, this script sets up the necessary metadata and configuration for packaging the "cnnClassifier" Python package, making it ready for distribution via tools like pip or uploading to package repositories like PyPI (Python Package Index).
+
+Step 5 --> (Updating __init__.py in cnnClassifier in src)
+        This Python script sets up logging configuration for a project named "cnnClassifier". Let's break down the code:
         
+        Imports:
+        The script imports necessary modules: os, sys, and logging.
+
+        Logging Configuration:
+        - logging_str: Defines the format of log messages. It includes timestamp, log level, module name, and message.
+        - log_dir: Specifies the directory where log files will be stored ("logs").
+        - log_filepath: Constructs the file path for the log file within the log directory ("logs/running_logs.log").
+        - os.makedirs(log_dir, exist_ok=True): Creates the log directory if it doesn't exist.
+        - logging.basicConfig(...): Configures the logging module with the following parameters:
+        - level: Sets the logging level to INFO.
+        - format: Sets the format of log messages using the logging_str defined earlier.
+        - handlers: Specifies handlers for logging output. In this case, it includes a FileHandler to write log messages to the file specified by log_filepath, and a StreamHandler to output log messages to the standard output (console).
+
+        Logger Initialization:
+        logger = logging.getLogger('cnnClassifierLogger'): Initializes a logger named "cnnClassifierLogger". This logger can be used throughout the project to log messages.
         
+        Overall, this script sets up logging for the "cnnClassifier" project, writing log messages to both a file and the console, with a specified format and logging level. This helps developers monitor the execution of their code and diagnose issues during runtime. 
+                
+                

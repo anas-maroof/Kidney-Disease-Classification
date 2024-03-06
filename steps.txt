@@ -3,11 +3,42 @@ Now we start the Project. Here I write my steps that i have done very sequential
 Step 1 --> (Creating Template) : 
         After creating github repo. We start to build project templates. We write a python code to create project templates. In this python script we first import os to read filedir and filename. We import Path from pathlib because in general paths are with "\" this symbol but we give command in "/" this symbol. So avoid this conflict we first pass out path in Path function then it convert the path in raw form.Now we make a list of files that we want to create. We specify every files and folder name correctly. Then we start a for loop in which we makedirs using os and give cinditions to create files and folders. If filedir is not empty then create files and folders in it. If file already exist don't create file with this name. Or we add some files and folders in list then after we run this pyhon file, it only add those files and folders which are newly added. All other files remain same without any change. We also import logging, this is use for to get message in console. And we set consoling message for each step such as "File already exist" etc.
 
-        Then we open anaconda prompt and activate our kidney_venv and write python template.py. Our all files and directories get created. For opening Virtual environment. Go to the Kidney Tumor Detection folder using cd. Then write conda activate kidney_venv.
+        Then we open anaconda prompt and activate our kidney and write python template.py. Our all files and directories get created. For opening Virtual environment. Go to the Kidney Tumor Detection folder using cd. Then write conda activate kidney.
 
 Step 2 --> (Shortcut for Git Push) :
         git add .
         git commit -m "description_what_you_have_done_in_this_push"
         git push origin main
 
+Step 3 --> (Installing requirements.txt)
 
+Step 4 --> (Updating setup.py) :
+        This code is a Python script that utilizes the setuptools library to define the setup configuration for a Python package. The main objective of this code is to package and distribute a Python project named "cnnClassifier". Here's a breakdown of what the code does:
+
+        Imports:
+        The script imports the setuptools library, which is commonly used for packaging Python projects.
+
+        Reading README File:
+        The script opens and reads the contents of the "README.md" file. This file typically contains detailed information about the project, including its description, installation instructions, and usage examples.
+
+        Defining Variables:
+        The script defines several variables:
+             - __version__: Represents the version number of the package (currently set to "0.0.0").
+             - REPO_NAME: The name of the GitHub repository where the package is hosted("Kidney-Disease-Classification").
+             - AUTHOR_USER_NAME: GitHub username of the package author ("anas-maroof").
+             - SRC_REPO: The name of the Python package ("cnnClassifier").
+             - AUTHOR_EMAIL: Email address of the package author.
+
+        Setting up Package Information:
+        - The setuptools.setup() function is used to define various metadata and configuration options for the package.
+        - Metadata such as package name, version, author, description, and URL are provided.
+        - The long description of the package (usually taken from the README file) is also included.
+        - Project URLs, such as the Bug Tracker URL, are specified.
+        - The package directory and packages are specified using package_dir and packages parameters respectively. In this case, it's set to look for packages within the "src" directory.
+
+        Setup Configuration:
+        The setup() function call with the provided arguments sets up the package configuration.
+
+        Overall, this script sets up the necessary metadata and configuration for packaging the "cnnClassifier" Python package, making it ready for distribution via tools like pip or uploading to package repositories like PyPI (Python Package Index).
+        
+        

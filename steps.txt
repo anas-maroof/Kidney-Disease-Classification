@@ -1,0 +1,13 @@
+Now we start the Project. Here I write my steps that i have done very sequentially in Hinglish.
+
+Step 1 --> (Creating Template) : 
+        After creating github repo. We start to build project templates. We write a python code to create project templates. In this python script we first import os to read filedir and filename. We import Path from pathlib because in general paths are with "\" this symbol but we give command in "/" this symbol. So avoid this conflict we first pass out path in Path function then it convert the path in raw form.Now we make a list of files that we want to create. We specify every files and folder name correctly. Then we start a for loop in which we makedirs using os and give cinditions to create files and folders. If filedir is not empty then create files and folders in it. If file already exist don't create file with this name. Or we add some files and folders in list then after we run this pyhon file, it only add those files and folders which are newly added. All other files remain same without any change. We also import logging, this is use for to get message in console. And we set consoling message for each step such as "File already exist" etc.
+
+        Then we open anaconda prompt and activate our kidney_venv and write python template.py. Our all files and directories get created. For opening Virtual environment. Go to the Kidney Tumor Detection folder using cd. Then write conda activate kidney_venv.
+
+Step 2 --> (Shortcut for Git Push) :
+        git add .
+        git commit -m "description_what_you_have_done_in_this_push"
+        git push origin main
+
+

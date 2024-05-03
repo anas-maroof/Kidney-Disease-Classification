@@ -404,3 +404,19 @@ OSError: No file or directory found at model\model.h5
 [2024-05-02 13:56:11,152: INFO: _internal: 127.0.0.1 - - [02/May/2024 13:56:11] "GET / HTTP/1.1" 200 -]
 [2024-05-02 13:57:24,785: INFO: _internal: 127.0.0.1 - - [02/May/2024 13:57:24] "POST /predict HTTP/1.1" 200 -]
 [2024-05-02 14:00:43,962: INFO: _internal: 127.0.0.1 - - [02/May/2024 14:00:43] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:29:28,942: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.11.40.238:8080]
+[2024-05-03 07:29:28,942: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-03 07:29:34,549: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:29:34] "GET / HTTP/1.1" 200 -]
+[2024-05-03 07:30:37,593: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:30:37] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:30:49,293: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:30:49] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:32:14,571: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:32:14] "GET / HTTP/1.1" 200 -]
+[2024-05-03 07:32:25,344: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:32:25] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:32:39,645: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:32:39] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:40:03,773: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F82CD769D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-03 07:40:03,779: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:40:03] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:40:46,330: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F82CD76430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-05-03 07:40:46,337: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:40:46] "POST /predict HTTP/1.1" 200 -]
+[2024-05-03 07:41:00,708: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:41:00] "POST /predict HTTP/1.1" 200 -]

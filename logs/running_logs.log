@@ -420,3 +420,41 @@ OSError: No file or directory found at model\model.h5
 [2024-05-03 07:40:46,330: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F82CD76430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
 [2024-05-03 07:40:46,337: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:40:46] "POST /predict HTTP/1.1" 200 -]
 [2024-05-03 07:41:00,708: INFO: _internal: 127.0.0.1 - - [03/May/2024 07:41:00] "POST /predict HTTP/1.1" 200 -]
+[2024-05-04 00:53:02,807: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.11.40.238:8080]
+[2024-05-04 00:53:02,816: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-04 00:53:07,505: INFO: _internal: 127.0.0.1 - - [04/May/2024 00:53:07] "GET / HTTP/1.1" 200 -]
+[2024-05-04 00:54:12,144: INFO: _internal: 127.0.0.1 - - [04/May/2024 00:54:12] "POST /predict HTTP/1.1" 200 -]
+[2024-05-04 00:54:46,679: INFO: _internal: 127.0.0.1 - - [04/May/2024 00:54:46] "POST /predict HTTP/1.1" 200 -]
+[2024-05-04 00:55:07,838: INFO: _internal: 127.0.0.1 - - [04/May/2024 00:55:07] "POST /predict HTTP/1.1" 200 -]
+[2024-05-04 14:47:40,489: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.12.169.35:8080]
+[2024-05-04 14:47:40,490: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-04 14:47:43,218: INFO: _internal: 127.0.0.1 - - [04/May/2024 14:47:43] "GET / HTTP/1.1" 200 -]
+[2024-05-04 14:47:55,353: INFO: _internal: 127.0.0.1 - - [04/May/2024 14:47:55] "POST /predict HTTP/1.1" 200 -]
+[2024-05-04 15:28:31,259: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.12.169.35:8080]
+[2024-05-04 15:28:31,259: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-04 15:28:33,321: INFO: _internal: 127.0.0.1 - - [04/May/2024 15:28:33] "GET / HTTP/1.1" 200 -]
+[2024-05-04 15:28:47,330: INFO: _internal: 127.0.0.1 - - [04/May/2024 15:28:47] "POST /predict HTTP/1.1" 200 -]
+[2024-05-05 13:57:04,923: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.11.40.238:8080]
+[2024-05-05 13:57:04,923: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-05 13:57:07,959: INFO: _internal: 127.0.0.1 - - [05/May/2024 13:57:07] "GET / HTTP/1.1" 200 -]
+[2024-05-05 13:57:52,892: INFO: _internal: 127.0.0.1 - - [05/May/2024 13:57:52] "POST /predict HTTP/1.1" 200 -]
+[2024-05-05 13:58:23,051: INFO: _internal: 127.0.0.1 - - [05/May/2024 13:58:23] "POST /predict HTTP/1.1" 200 -]
+[2024-05-16 18:06:34,983: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.11.73.247:8080]
+[2024-05-16 18:06:34,983: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-16 18:06:40,804: INFO: _internal: 127.0.0.1 - - [16/May/2024 18:06:40] "GET / HTTP/1.1" 200 -]
+[2024-05-16 18:06:54,687: INFO: _internal: 127.0.0.1 - - [16/May/2024 18:06:54] "POST /predict HTTP/1.1" 200 -]
